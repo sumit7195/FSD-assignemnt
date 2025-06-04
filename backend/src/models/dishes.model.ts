@@ -9,8 +9,8 @@ enum FlavorType {
   SWEET = "sweet",
   BITTER = "bitter",
   SPICY = "spicy",
-  SOUR = "sour", // Consider adding this common Indian flavor
-  SAVORY = "savory", // Consider adding this
+  SOUR = "sour",
+  SAVORY = "savory",
 }
 
 enum CourseType {
@@ -28,8 +28,8 @@ interface IDish extends mongoose.Document {
   prep_time: number;
   flavor_profile: FlavorType;
   course: CourseType;
-  state?: string; // Make optional with ?
-  region?: string; // Fixed typo from "reqion" to "region"
+  state?: string; 
+  region?: string; 
 }
 
 const dishesSchema = new Schema<IDish>(
@@ -76,7 +76,6 @@ const dishesSchema = new Schema<IDish>(
       default: undefined,
     },
     region: {
-      // Fixed typo from "reqion" to "region"
       type: String,
       required: false,
       default: undefined,
