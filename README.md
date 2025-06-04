@@ -2,6 +2,9 @@
 
 A modern full-stack web application for discovering authentic Indian dishes with blazing fast performance.
 
+## Demo 🎥
+See the app in action: [Watch Video Demo](https://www.awesomescreenshot.com/video/40618988?key=79b349cfea46da4efa1f57a3498aaf12)
+
 ## Tech Stack 🛠️
 
 ### Frontend
@@ -50,4 +53,3 @@ pnpm build && pnpm start
 ```
 
 ### Make sure to run BE services
-
